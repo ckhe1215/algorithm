@@ -2,13 +2,7 @@
 #include <vector>
 using namespace std;
 
-struct bus{
-	int start;
-	int end;
-	int cost;
-};
 int dist[101][101];
-vector<bus>list;
 
 int main() {
 	int n, m;
